@@ -38,7 +38,7 @@
             }
         }
         else { //the element has failed the check, and has returned undefined
-            console.log("%c check failed " + document.querySelectorAll('[class="sPXonc"]')[0], redCSS);
+            console.log("%c check failed, returned " + document.querySelectorAll('[class="sPXonc"]')[0], redCSS);
             alert("An error occurred, element check returned " + document.querySelectorAll('[class="sPXonc"]')[0] + ". Will now begin checking element every 10 seconds.");
             setTimeout(function(){
                 raiseHandf();
