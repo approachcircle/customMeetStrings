@@ -20,7 +20,7 @@
     let ba = "%c assigned shorthand document variable";
     let va = "%c success, raise hand text is not undefined";
     let fa = "%c attempted to assign custom innerHTML to raise hand innerHTML";
-    let fand = "Successfully made all changes to the document, thank you and goodbye!";
+    let fand = "successfully made all changes to the document, thank you and goodbye";
     let CT = "Raise your fucking hand";
     console.log("%c assigned main string vars", greenCSS);
     console.log(ba, greenCSS); //doc var
@@ -42,7 +42,7 @@
             alert("An error occurred, element check returned " + document.querySelectorAll('[class="sPXonc"]')[0] + ". Will now begin checking element every 10 seconds.");
             setTimeout(function(){
                 raiseHandf();
-            }, 10000);
+            }, 30000);
             //console.log('%c raise hand text element returned ' + document.querySelectorAll('[class="sPXonc"]')[0], redCSS); //log undefined returnal
             //alert('Oops, something went wrong with approachcircle\'s javascript. raise hand text element returned ' + document.querySelectorAll('[class="sPXonc"]')[0]); //alert undefined returnal
         }
@@ -50,6 +50,6 @@
     console.log("%c defined raiseHand() function", greenCSS);
     setTimeout(function(){ //begin func for time to elapse
         raiseHandf();
-    }, 10000); //end func for 10 sec timeout
+    }, 30000); //end func for 30 sec timeout
     //console.log('%c plugin initialised, timeout begun', greenCSS); //code execution complete
 })();
