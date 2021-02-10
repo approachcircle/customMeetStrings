@@ -12,7 +12,6 @@
 //and check again, repeat this for about a minute depending on initial wait time. if the element exists in these checks then proceed with the program obviously.----
 
 (function() {
-    'use strict';
     setTimeout(function(){
         var doctitle = document.title;
         if (doctitle == "Meet") { //if the title of the page is just "Meet" then we're on the homepage
